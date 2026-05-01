@@ -1,0 +1,43 @@
+body {
+ background-color: black;
+
+}
+
+h1 {
+ color: red;
+ font-size: 60px;
+ text-align: center;
+
+}
+
+ul {
+ color: white;
+ font-size: 23px;
+ text-align: left;
+ margin-top: 50px;
+ margin-right: 100px;
+ margin-bottom: 50px;
+ margin-left: 150px;
+
+}
+
+li {
+ margin-top: 50px;
+ marging-bottom: 50px;
+
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.gallery img {
+  width: 330px;
+  height: 330px;
+  opacity: 0.1;
+
+}
